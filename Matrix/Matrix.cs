@@ -8,5 +8,8 @@ namespace Matrices.Matrix
 {
     class Matrix
     {
+        public int Rows { get; }
+        public int Columns { get; }
+        public abstract float this[int row]
     }
 }
